@@ -5,9 +5,9 @@ A Python project showcasing Object-Oriented Programming (OOP) principles such as
 
 📂 Project Structure
 oop-vehicle-system/
-├── vehicle.py       # Defines Vehicle, Car, Truck, ElectricCar, Bus, Motorcycle, ElectricMixin, and FleetManager classes
-├── main.py         # Entry point with user input to demonstrate vehicle functionality
-├── README.md       # Project documentation
+├── vehicle.py  # Defines Vehicle, Car, Truck, ElectricCar, Bus, Motorcycle, ElectricMixin, and FleetManager classes
+├── main.py     # Entry point with user input to demonstrate vehicle functionality
+├── README.md   # Project documentation
 
 🎯 Features
 
