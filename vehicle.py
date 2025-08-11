@@ -61,6 +61,8 @@ class FleetManager:
         self.vehicles = []
 
     def add_vehicle(self, vehicle: Vehicle):
+        if not isinstance(vehicle, Vehicle):
+            raise TypeError("Only instances of Vehicle can be added.")
         self.vehicles.append(vehicle)  
 
     def remove_vehicle(self, vehicle: Vehicle):
