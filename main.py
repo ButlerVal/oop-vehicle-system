@@ -18,3 +18,14 @@ def main():
     
     # Charge the electric car's battery
     print(electric_car.charge_battery())
+
+    manager = vehicle.FleetManager()
+
+    manager.add_vehicle(car)
+    manager.add_vehicle(truck)  
+    manager.add_vehicle(electric_car)
+    manager.type_list()
+    manager.start_all_engines()
+
+if __name__ == "__main__":
+    main()    
